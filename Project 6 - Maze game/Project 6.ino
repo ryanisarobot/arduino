@@ -38,8 +38,6 @@ void loop()
   {
     previousMillis = currentMillis; // Update the timer
 
-    Serial.print(analogRead(A0));
-    Serial.print(analogRead(A1));
     // Print joystick and servo positions to Serial Monitor
     Serial.print("Joystick X: ");
     Serial.print(joyValX);
